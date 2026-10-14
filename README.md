@@ -104,10 +104,10 @@ I trained Logistic Regression and Random Forest, both with `class_weight='balanc
 
 1. Clone the repo.
    ```
-   git clone https://github.com/your-username/waze-churn-analysis.git
+   [git clone](https://github.com/Tejaspakhale/waze-churn-analysis.git)
    cd waze-churn-analysis
    ```
-2. Download the dataset from [kaggle](https://www.kaggle.com/datasets/mostafamohammednouh/waze-synthetic-user-churn-data) and save it as `waze_dataset.csv`. . The notebook looks for that exact name in its own folder.
+2. Download the dataset from [kaggle](https://www.kaggle.com/datasets/mostafamohammednouh/waze-synthetic-user-churn-data) and save it as `waze_dataset.csv`. .
 3. Excel: open `excel/Waze_Churn_Phase1.xlsx`. The Findings, Summary and Data sheets are ready to read.
 4. SQL: the queries expect a table called `users`. Import `waze_dataset.csv` into MySQL with that table name. The import tool saves the 700 blank labels as empty text instead of NULL, so run this once afterwards:
    ```sql
