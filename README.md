@@ -103,24 +103,23 @@ I trained Logistic Regression and Random Forest, both with `class_weight='balanc
 ## How to Run This Project?
 
 1. Clone the repo.
-   ```
    [git clone](https://github.com/Tejaspakhale/waze-churn-analysis.git)
    cd waze-churn-analysis
-   ```
-2. Download the dataset from [kaggle](https://www.kaggle.com/datasets/mostafamohammednouh/waze-synthetic-user-churn-data) and save it as `waze_dataset.csv`. .
-3. Excel: open `excel/Waze_Churn_Phase1.xlsx`. The Findings, Summary and Data sheets are ready to read.
-4. SQL: the queries expect a table called `users`. Import `waze_dataset.csv` into MySQL with that table name. The import tool saves the 700 blank labels as empty text instead of NULL, so run this once afterwards:
+   
+3. Download the dataset from [kaggle](https://www.kaggle.com/datasets/mostafamohammednouh/waze-synthetic-user-churn-data) and save it as `waze_dataset.csv`. .
+4. Excel: open `excel/Waze_Churn_Phase1.xlsx`. The Findings, Summary and Data sheets are ready to read.
+5. SQL: the queries expect a table called `users`. Import `waze_dataset.csv` into MySQL with that table name. The import tool saves the 700 blank labels as empty text instead of NULL, so run this once afterwards:
    ```sql
    SET SQL_SAFE_UPDATES = 0;
    UPDATE users SET label = NULL WHERE label = '';
    ```
    Then run `sql/waze_churn_queries.sql`. The window-function query needs MySQL 8 or newer.
-5. Python:
+6. Python:
    ```
    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
    jupyter notebook python/Waze_Churn_Phase3.ipynb
    ```
-6. Power BI: open `powerbi/Waze_Churn_Dashboard.pbix` in Power BI Desktop (it's free). If it asks where the data is, point it to the Excel workbook or the CSV.
+7. Power BI: open `powerbi/Waze_Churn_Dashboard.pbix` in Power BI Desktop (it's free). If it asks where the data is, point it to the Excel workbook or the CSV.
 
 ## Results & Conclusion
 
