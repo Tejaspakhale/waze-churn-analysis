@@ -89,7 +89,8 @@ The Power BI dashboard has three KPI cards (total users, churned users, churn ra
 ![Dashboard, no filters](<img width="886" height="607" alt="image" src="https://github.com/user-attachments/assets/2910680c-8030-4b27-8578-c115313bef51" />
 )
 
-![Dashboard, one slicer selected](<img width="875" height="607" alt="image" src="https://github.com/user-attachments/assets/68cc03ab-ebb3-4a9a-a60f-94bdb2391472" />)
+![Dashboard, one slicer selected](<img width="875" height="607" alt="image" src="https://github.com/user-attachments/assets/68cc03ab-ebb3-4a9a-a60f-94bdb2391472" />
+)
 
 
 ### Models
