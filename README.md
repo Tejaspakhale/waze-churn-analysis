@@ -88,7 +88,7 @@ The Power BI dashboard has three KPI cards (total users, churned users, churn ra
 
 ![Dashboard, no filters](https://github.com/Tejaspakhale/waze-churn-analysis/blob/main/images/Dashboard%201.png?raw=true)
 
-![Dashboard, one slicer selected](D:\Waze_Churn_Project\images\Dashboard 2.png)
+![Dashboard, one slicer selected](https://github.com/Tejaspakhale/waze-churn-analysis/blob/main/images/Dashboard%202.png?raw=true)
 
 
 ### Models
