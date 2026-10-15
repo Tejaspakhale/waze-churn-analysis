@@ -86,7 +86,7 @@ Overall, 17.74% of labeled users churned (2,536 out of 14,299).
 
 The Power BI dashboard has three KPI cards (total users, churned users, churn rate), four bar charts and three slicers (device, tenure, activity) that filter the whole page. Bars with a churn rate of 20% or more are red.
 
-![Dashboard, no filters](https://github.com/Tejaspakhale/waze-churn-analysis/blob/main/images/Dashboard%201.png?raw=true)
+![Waze Churn Dashboard](images/Dashboard%201.png))
 
 ### Models
 
